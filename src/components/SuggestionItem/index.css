@@ -1,0 +1,47 @@
+.suggestions { 
+    color: #475569;
+    font-weight: bold;
+    font-style: 'Roboto';
+}
+.image-btn {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background-color: #ffffff;
+}
+.arrow-image {
+    height: 30px;
+    width: 30px;
+}
+.suggestion-box{
+    margin-right: 38px;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+@media (max-width:767px){
+    .suggestions { 
+        font-size: 12px;
+    }
+    .image-btn {
+        height: 15px;
+        width: 15px;
+    }
+    .arrow-image {
+        height: 15px;
+        width: 15px;
+    }
+    .suggestion-box{
+        height: 20px;
+        width: 300px;
+        padding: 15px;
+    } 
+}
